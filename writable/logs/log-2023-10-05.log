@@ -1,0 +1,444 @@
+CRITICAL - 2023-10-05 05:17:44 --> Too few arguments to function App\Controllers\Welcome::demo(), 0 passed in C:\xampp\htdocs\ci4\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Welcome.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Welcome->demo()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 05:24:12 --> Too few arguments to function App\Controllers\Welcome::demo(), 0 passed in C:\xampp\htdocs\ci4\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Welcome.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Welcome->demo()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 05:30:14 --> Too few arguments to function App\Controllers\Welcome::demo(), 0 passed in C:\xampp\htdocs\ci4\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Welcome.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Welcome->demo()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 05:30:46 --> Too few arguments to function App\Controllers\Welcome::demo(), 0 passed in C:\xampp\htdocs\ci4\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Welcome.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Welcome->demo()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 05:30:58 --> Too few arguments to function App\Controllers\Welcome::demo(), 0 passed in C:\xampp\htdocs\ci4\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Welcome.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Welcome->demo()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Welcome))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 07:24:07 --> syntax error, unexpected identifier "name"
+in APPPATH\Views\frontEnd\product.php on line 10.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('frontEnd/product.php', [], true)
+ 3 APPPATH\Controllers\ProductController.php(8): view('frontEnd/product.php')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 07:24:29 --> Undefined variable $name
+in APPPATH\Views\frontEnd\product.php on line 11.
+ 1 APPPATH\Views\frontEnd\product.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\frontEnd\\product.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\frontEnd\\product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('frontEnd/product.php', [], true)
+ 5 APPPATH\Controllers\ProductController.php(8): view('frontEnd/product.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 07:25:13 --> Undefined variable $name
+in APPPATH\Views\frontEnd\product.php on line 11.
+ 1 APPPATH\Views\frontEnd\product.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\frontEnd\\product.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\frontEnd\\product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('frontEnd/product.php', [], true)
+ 5 APPPATH\Controllers\ProductController.php(8): view('frontEnd/product.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 07:35:32 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\frontEnd\product.php on line 13.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('frontEnd/product.php', [], true)
+ 3 APPPATH\Controllers\ProductController.php(19): view('frontEnd/product.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->find('nokia')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 07:35:34 --> syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Views\frontEnd\product.php on line 13.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('frontEnd/product.php', [], true)
+ 3 APPPATH\Controllers\ProductController.php(19): view('frontEnd/product.php', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->find('nokia')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 07:39:16 --> Undefined variable $name_arr
+in APPPATH\Views\frontEnd\product.php on line 18.
+ 1 APPPATH\Views\frontEnd\product.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name_arr', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\frontEnd\\product.php', 18)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\frontEnd\\product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('frontEnd/product.php', [], true)
+ 5 APPPATH\Controllers\ProductController.php(8): view('frontEnd/product.php')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 07:45:01 --> Undefined variable $name_arr
+in APPPATH\Views\frontEnd\product.php on line 19.
+ 1 APPPATH\Views\frontEnd\product.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $name_arr', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\frontEnd\\product.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\frontEnd\\product.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('frontEnd/product.php', [], true)
+ 5 APPPATH\Controllers\ProductController.php(23): view('frontEnd/product.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->find('Apple')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 08:45:09 --> Invalid file: "layout/inc/navbar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/inc/navbar.php')
+ 2 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/inc/navbar.php', null, true)
+ 3 APPPATH\Views\layouts\frontEnd.php(11): CodeIgniter\View\View->include('layout/inc/navbar.php')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\layouts\\frontEnd.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/frontEnd.php', [], true)
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('welcome_message', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 08:45:14 --> Invalid file: "layout/inc/navbar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/inc/navbar.php')
+ 2 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('layout/inc/navbar.php', null, true)
+ 3 APPPATH\Views\layouts\frontEnd.php(11): CodeIgniter\View\View->include('layout/inc/navbar.php')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\layouts\\frontEnd.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/frontEnd.php', [], true)
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('welcome_message', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 08:45:22 --> Invalid file: "inc/navbar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('inc/navbar.php')
+ 2 SYSTEMPATH\View\View.php(467): CodeIgniter\View\View->render('inc/navbar.php', null, true)
+ 3 APPPATH\Views\layouts\frontEnd.php(11): CodeIgniter\View\View->include('inc/navbar.php')
+ 4 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\layouts\\frontEnd.php')
+ 5 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('layouts/frontEnd.php', [], true)
+ 7 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('welcome_message', [], true)
+ 8 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 9 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+10 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+11 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:46:03 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\StudentController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-05 10:46:19 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\StudentController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-05 10:46:56 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\StudentController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-05 10:46:58 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\StudentController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-05 10:47:14 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\StudentController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-05 10:47:56 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\StudentController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-05 10:47:57 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\StudentController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-05 10:47:58 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\StudentController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-05 10:47:58 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\StudentController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-05 10:47:58 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+in APPPATH\Controllers\StudentController.php on line 5.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-05 10:49:51 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:49:53 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:50:59 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:51:00 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:51:01 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:51:01 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:51:01 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:51:02 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:51:02 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:51:03 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:51:14 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:51:15 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:51:36 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:51:36 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:51:36 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 10:51:37 --> Invalid file: "default.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('default.php')
+ 2 SYSTEMPATH\View\View.php(242): CodeIgniter\View\View->render('default', [], true)
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 4 APPPATH\Controllers\StudentController.php(13): view('students/index.php', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 11:01:26 --> Object of class App\Models\StudentModel could not be converted to string
+in APPPATH\Controllers\StudentController.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 11:03:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(230): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentController.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 11:03:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(230): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentController.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 11:03:21 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(230): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentController.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 11:03:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(230): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentController.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 11:03:24 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 883.
+ 1 SYSTEMPATH\Model.php(635): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(230): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\StudentController.php(13): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 11:09:04 --> Undefined variable $student
+in APPPATH\Views\students\index.php on line 28.
+ 1 APPPATH\Views\students\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\students\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\students\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 5 APPPATH\Controllers\StudentController.php(15): view('students/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 11:09:09 --> Undefined variable $student
+in APPPATH\Views\students\index.php on line 28.
+ 1 APPPATH\Views\students\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\students\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\students\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 5 APPPATH\Controllers\StudentController.php(15): view('students/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 11:09:12 --> Undefined variable $student
+in APPPATH\Views\students\index.php on line 28.
+ 1 APPPATH\Views\students\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\students\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\students\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 5 APPPATH\Controllers\StudentController.php(15): view('students/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 11:09:13 --> Undefined variable $student
+in APPPATH\Views\students\index.php on line 28.
+ 1 APPPATH\Views\students\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\students\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\students\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 5 APPPATH\Controllers\StudentController.php(15): view('students/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-05 11:09:14 --> Undefined variable $student
+in APPPATH\Views\students\index.php on line 28.
+ 1 APPPATH\Views\students\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student', 'C:\\xampp\\htdocs\\ci4\\app\\Views\\students\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\ci4\\app\\Views\\students\\index.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('students/index.php', [], true)
+ 5 APPPATH\Controllers\StudentController.php(15): view('students/index.php', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
